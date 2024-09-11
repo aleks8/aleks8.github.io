@@ -1,0 +1,25 @@
+application: aleks.github.io
+version: 1
+#runtime: python
+api_version: 1
+
+handlers:
+
+-   url: /favicon.ico
+    static_files: /favicon.ico
+    upload: /favicon.ico
+    mime_type: image/x-icon
+
+-   url: /css  #your css folder
+    static_dir: css 
+
+-   url: /js #your javascript folder
+    static_dir: js
+
+-   url: /img #your image folder
+    static_dir: img
+
+-   url: /fonts #your fonts folder
+    static_dir: fonts
+
+    
